@@ -1,0 +1,58 @@
+/*
+*= require nav.css
+*= require footer.css
+*= require_self
+*/
+
+*{
+	margin:0;
+	padding:0;
+	background:#F7F7F7;
+}
+.normal{
+width:100%;
+margin:0 auto;
+}
+.base{
+width:800px;
+margin:0 auto;
+}
+.clear{
+clear:both;
+}
+
+footer{
+	margin-top:30px;
+	color:#D6D6D6;
+	font:12px Arial;
+	padding:20px 15px 20px;
+	background-color:#5E5E5E;
+	box-shadow: 0px -4px 10px #828282;
+}
+#company a{
+	display: inline-block;
+	width: 132px;
+	height: 24px;
+	background: url(../imagens/logo_programasul.png) no-repeat 0 0;
+	text-indent: -9999px;
+	overflow: hidden;
+	float:right;
+}
+#post{
+margin-left:80px;
+margin-top:50px;
+width:600px;
+height:500px;
+border:2px solid #939393;
+box-shadow: 10px 10px 12px #828282;
+border-radius:2em;
+}
+#login{
+margin-left:200px;
+padding:10px 10px 10px;
+margin-top:50px;
+width:300px;
+border:2px solid #939393;
+box-shadow: 10px 10px 12px #828282;
+border-radius:2em;
+}

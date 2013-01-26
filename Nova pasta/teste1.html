@@ -1,0 +1,126 @@
+<html>
+        <head>
+                <title></title>
+                <style>
+                *{
+        margin:0;
+        padding:0;
+}
+body{
+        background:#F7F7F7;
+}
+table{
+        border:none;
+        border-collapse: collapse;
+        font:normal 14px sans-serif;
+
+}
+table th{
+        background:#37352D;
+        height:45px;
+        color:#F7F7F7;
+        text-align:center;
+}
+.arredond{
+  border-radius:13px 0 0 0;
+}
+.arredond2{
+  border-radius:0 13px 0 0;
+}
+.trcomfundo{
+        border-left:solid 10px #B7B3AA;
+}
+.trsemfundo{
+        border-left:solid 10px #39372F;
+}
+.trcomfundoover{
+        border-left:solid 10px #B7B3AA;
+        background:#B7B3AA;
+}
+.delete{
+        display: inline-block;
+        width: 37px;
+        height: 37px;
+        background: url(../images/exclui.png) no-repeat 0 0;
+        text-indent: -9999px;
+        overflow: hidden;
+        float:right;
+}
+.edit{
+        display: inline-block;
+        width: 37px;
+        height: 37px;
+        background: url(../images/editar.png) no-repeat 0 0;
+        text-indent: -9999px;
+        overflow: hidden;
+        float:right;
+}
+.edit:hover, .delete:hover{
+        opacity:0.2;
+        filter:alpha(opacity=100);
+        -webkit-transition: all .3s linear;
+        -moz-transition: all .3s linear;
+        -o-transition: all .3s linear;
+        transition: all .3s linear;
+}
+.mass{
+        width:850px;
+        margin:10px auto;
+}
+                </style>
+        </head>
+        <body>
+                <header>
+
+                </header>
+                <article>
+                        <table class="mass">
+                                <tr>
+                                        <th class="arredond">T�tulo</th>
+                                        <th>Data de postagem</th>
+                                        <th>Resumo</th>
+                                        <th class="arredond2">A��es</th>
+                                </tr>
+                                <tr class='trcomfundo' onmouseover="this.className='trcomfundoover'" onmouseout="this.className='trcomfundo'">
+                                        <td>O churrasco na casa do v� arlindo</td>
+                                        <td>12/12/2012</td>
+                                        <td>O churrasco estava delicioso pois tinha bastante carne</td>
+                                        <td>
+                                                <a href="#" title="Editar" class="edit">Editar</a>
+                                                <a href="#" title="Apagar" class="delete">Apagar</a>
+                                        </td>
+                                </tr>
+                                <tr class='trsemfundo' onmouseover="this.className='trcomfundoover'" onmouseout="this.className='trsemfundo'">
+                                        <td>O churrasco na casa do v� arlindo</td>
+                                        <td>12/12/2012</td>
+                                        <td>O churrasco estava delicioso pois tinha bastante carne</td>
+                                        <td>
+                                                <a href="#" title="Editar" class="edit">Editar</a>
+                                                <a href="#" title="Apagar" class="delete">Apagar</a>
+                                        </td>
+                                </tr>
+                                <tr class='trcomfundo' onmouseover="this.className='trcomfundoover'" onmouseout="this.className='trcomfundo'">
+                                        <td>O churrasco na casa do v� arlindo</td>
+                                        <td>12/12/2012</td>
+                                        <td>O churrasco estava delicioso pois tinha bastante carne</td>
+                                        <td>
+                                                <a href="#" title="Editar" class="edit">Editar</a>
+                                                <a href="#" title="Apagar" class="delete">Apagar</a>
+                                        </td>
+                                </tr>
+                                <tr class='trsemfundo' onmouseover="this.className='trcomfundoover'" onmouseout="this.className='trsemfundo'">
+                                        <td>O churrasco na casa do v� arlindo</td>
+                                        <td>12/12/2012</td>
+                                        <td>O churrasco estava delicioso pois tinha bastante carne</td>
+                                        <td>
+                                                <a href="#" title="Editar" class="edit">Editar</a>
+                                                <a href="#" title="Apagar" class="delete">Apagar</a>
+                                        </td>
+                                </tr>
+                        </table>
+                </article>
+                <footer>
+
+                </footer>
+        </body>
+</html>

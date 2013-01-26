@@ -1,0 +1,47 @@
+*{
+	margin:0;
+	padding:0;
+	background:#F7F7F7;
+}
+body{
+	font: 22px sans-serif;
+	background:#F7F7F7;
+}
+fieldset{
+	border:none;
+	margin:20px;
+}
+label{
+	text-transform:capitalize;
+	display:block;
+	margin-bottom:10px;
+}
+fieldset:first-letter{
+	font:bold 30px sans-serif;
+	color:#D6D6D6;
+}
+.text{
+	width:100%;
+	border:none;
+	height:25px;
+	padding:2px;
+}
+.text:hover{
+	box-shadow: 0 0 30px #A7D9F5;
+	border-radius:3px;
+}
+.submit{
+	width:120px;
+	height:35;
+	text-align:center;
+	color:#fff;
+	font:bold 15px sans-serif;
+	background:#A7D9F5;
+}
+form{
+	margin:250px auto;
+	padding:20px;
+	width:300px;
+	box-shadow: 0 0 30px #DDDDDD;
+	border-radius:13px;
+}

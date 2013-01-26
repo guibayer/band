@@ -1,0 +1,25 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font: 120px sans-serif;
+}
+#post{
+margin-left:80px;
+margin-top:50px;
+width:600px;
+height:500px;
+border:2px solid #939393;
+box-shadow: 10px 10px 12px #828282;
+border-radius:2em;
+}
+#login{
+margin-left:200px;
+padding:10px 10px 10px;
+margin-top:50px;
+width:300px;
+border:2px solid #939393;
+box-shadow: 10px 10px 12px #828282;
+border-radius:2em;
+}

@@ -1,0 +1,37 @@
+*{
+	margin:0;
+	padding:0;
+	background:#F7F7F7;
+}
+body{
+	font: 22px sans-serif;
+	background:#F7F7F7;
+}
+fieldset{
+	border:none;
+	margin:20px;
+}
+label{
+	text-transform:capitalize;
+	display:block;
+	margin-bottom:10px;
+}
+fieldset:first-letter{
+	font:bold 30px sans-serif;
+	color:#D6D6D6;
+}
+#post{
+margin-left:80px;
+margin-top:50px;
+width:600px;
+height:500px;
+border:2px solid #939393;
+box-shadow: 10px 10px 12px #828282;
+border-radius:2em;
+}
+form{
+margin:auto auto;
+border:2px solid #939393;
+box-shadow: 0 0 5px #D6D6D6;
+border-radius:13px;
+}

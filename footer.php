@@ -1,0 +1,1 @@
+		<footer>		<div id="company" class="normal">			Copyright © 2008 Site banda Aquarela - Todos os direitos reservados			<a href="http://infosulst.com.br" title="Infosul">infoSUL - Soluções e Tecnologias</a>		</div>		</footer>	</body></html>

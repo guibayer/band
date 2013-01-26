@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>untitled</title>
+    <link href="style.css" media="screen" rel="stylesheet" type="text/css">
+  </head>
+  <body id="untitled" onload="">
+
+    <form action="untitled_submit" method="get" accept-charset="utf-8">
+      <fieldset>
+        <label>Nome</label>
+        <input class="text" type="text" placeholder="NOME" autofocus required/>
+      </fieldset>
+      <fieldset>
+        <label>Integrante desde</label>
+        <input class="text" type="date" placeholder="DATA DE INICIO" required/>
+      </fieldset>
+      <fieldset>
+        <label>Instrumento</label>
+        <input class="text" type="text" placeholder="INSTRMENTO" required/>
+      </fieldset>
+      <fieldset>
+        <label>Avatar</label>
+        <div id="file"><input id="file_input" class="file" type="file" name="file" placeholder="FOTO" required onchange='document.getElementById("file_name").innerHTML = this.files[0].name;' /><div class="text_input_file" id="file_name" /></div>
+      </fieldset>
+      <fieldset>
+        <label>Historia</label>
+        <textarea type="text" placeholder="HISTORIA" required ></textarea>
+      </fieldset>
+      <p><input class="submit"  type="submit" value="Salvar"></p>
+    </form>
+
+
+
+
+  </body>
+
+</html>

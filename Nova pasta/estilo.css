@@ -1,0 +1,23 @@
+*{
+  margin:0;
+  padding:0;
+  background:#F7F7F7;
+}
+body{
+  margin:0 auto;
+  width:800px;
+}
+table{
+
+  border:solid 10px;
+  width:800px;
+}
+.vermelho{
+  background: red;
+}
+tbody {
+  color:blue;
+}
+tfoot {
+  color:red;
+}
